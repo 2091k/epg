@@ -1,0 +1,12 @@
+[Unit]
+Description=每天跑 2 次电视猫 EPG 同步（00:17 / 12:17）
+
+[Timer]
+# 每天 2 次：00:17 抓当天新一页，12:17 刷新一次
+OnCalendar=*-*-* 00,12:17:00
+# 盒子关机错过的那次，开机后补跑
+Persistent=true
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,16 @@
+[Unit]
+Description=电视猫 EPG 同步（央视 + 卫视，每天 2 次）
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+# 默认窗口：前 7 天 + 今天 + 未来 2 天（过去的日期抓过一次就复用，不重复请求）
+ExecStart=/usr/bin/php /opt/tvmao-sync/tvmao_sync.php --delay=1200
+StandardOutput=append:/var/log/tvmao-sync.log
+StandardError=append:/var/log/tvmao-sync.log
+# 首次全量要抓 9 天 × 58 频道，给足时间，别让 systemd 半路掐掉
+TimeoutStartSec=3600
+Nice=19
+IOSchedulingClass=idle

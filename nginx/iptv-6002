@@ -1,0 +1,77 @@
+# /etc/nginx/sites-available/iptv-6002
+# 电视猫 EPG —— 只读接口（端口 6002）
+# 数据由 tvmao_sync.php 每 12 小时抓一次落盘，这里只吐静态/JSON，不回源。
+# 启用：ln -s /etc/nginx/sites-available/iptv-6002 /etc/nginx/sites-enabled/iptv-6002 && nginx -t && systemctl reload nginx
+
+server {
+    listen 6002;
+    server_name _;
+
+    root /var/www/iptv;
+    index index.php;
+    charset utf-8;
+
+    access_log /var/log/nginx/iptv-6002.access.log;
+    error_log  /var/log/nginx/iptv-6002.error.log;
+
+    client_max_body_size 1m;
+
+    # 只读：只允许 GET / HEAD
+    if ($request_method !~ ^(GET|HEAD)$) {
+        return 405;
+    }
+
+    # 配置文件与隐藏文件不给看
+    location = /config.php {
+        deny all;
+        return 404;
+    }
+    location ~ /\. {
+        deny all;
+        return 404;
+    }
+    # 安装包残留（如果整套包被解压到了 /var/www/iptv，这些不该被浏览器访问）
+    location ~ ^/(etc|opt-tvmao-sync|systemd|web|nginx)/ {
+        deny all;
+        return 404;
+    }
+    location ~ ^/(install\.sh|uninstall\.sh|README\.md)$ {
+        deny all;
+        return 404;
+    }
+
+    # 期权数据直接从 data 目录吐（不走 PHP，电视端拿 pp.xml.gz 最快）
+    location = /pp.xml {
+        root /var/www/iptv/data;
+        default_type application/xml;
+        add_header Cache-Control "public, max-age=600";
+    }
+    location = /pp.xml.gz {
+        root /var/www/iptv/data;
+        default_type application/gzip;
+        add_header Cache-Control "public, max-age=600";
+    }
+    location = /channels.txt {
+        root /var/www/iptv/data;
+        default_type text/plain;
+        charset utf-8;
+    }
+    # 静态 JSON（json/<日期>/<频道>.json、json/<频道>.json）
+    location /json/ {
+        root /var/www/iptv/data;
+        add_header Cache-Control "public, max-age=600";
+    }
+
+    location ~ \.php$ {
+        try_files $uri =404;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param QUERY_STRING    $query_string;
+        fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+        fastcgi_read_timeout 30s;
+    }
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+}

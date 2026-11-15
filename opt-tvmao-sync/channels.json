@@ -1,0 +1,292 @@
+[
+  {
+    "id": "CCTV1",
+    "name": "CCTV-1 综合",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV1-w{W}.html"
+  },
+  {
+    "id": "CCTV2",
+    "name": "CCTV-2 财经",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV2-w{W}.html"
+  },
+  {
+    "id": "CCTV3",
+    "name": "CCTV-3 综艺",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV3-w{W}.html"
+  },
+  {
+    "id": "CCTV4",
+    "name": "CCTV-4 国际",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV4-w{W}.html"
+  },
+  {
+    "id": "CCTV5",
+    "name": "CCTV-5 体育",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV5-w{W}.html"
+  },
+  {
+    "id": "CCTV5+",
+    "name": "CCTV5+ 体育赛事",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV5-PLUS-w{W}.html"
+  },
+  {
+    "id": "CCTV6",
+    "name": "CCTV-6 电影",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV6-w{W}.html"
+  },
+  {
+    "id": "CCTV7",
+    "name": "CCTV-7 国防军事",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV7-w{W}.html"
+  },
+  {
+    "id": "CCTV8",
+    "name": "CCTV-8 电视剧",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV8-w{W}.html"
+  },
+  {
+    "id": "CCTV9",
+    "name": "CCTV-9 纪录",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV9-w{W}.html"
+  },
+  {
+    "id": "CCTV10",
+    "name": "CCTV-10 科教",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV10-w{W}.html"
+  },
+  {
+    "id": "CCTV11",
+    "name": "CCTV-11 戏曲",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV11-w{W}.html"
+  },
+  {
+    "id": "CCTV12",
+    "name": "CCTV-12 社会与法",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV12-w{W}.html"
+  },
+  {
+    "id": "CCTV13",
+    "name": "CCTV-13 新闻",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV13-w{W}.html"
+  },
+  {
+    "id": "CCTV14",
+    "name": "CCTV-14 少儿",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV15-w{W}.html"
+  },
+  {
+    "id": "CCTV15",
+    "name": "CCTV-15 音乐",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV16-w{W}.html"
+  },
+  {
+    "id": "CCTV16",
+    "name": "CCTV-16 奥林匹克",
+    "url": "https://www.tvmao.com/program/CCTV/CCTVOLY-w{W}.html"
+  },
+  {
+    "id": "CCTV17",
+    "name": "CCTV-17 农业农村",
+    "url": "https://www.tvmao.com/program/CCTV/CCTV17NY-w{W}.html"
+  },
+  {
+    "id": "湖南卫视",
+    "name": "湖南卫视",
+    "url": "https://www.tvmao.com/program_satellite/HUNANTV1-w{W}.html"
+  },
+  {
+    "id": "浙江卫视",
+    "name": "浙江卫视",
+    "url": "https://www.tvmao.com/program_satellite/ZJTV1-w{W}.html"
+  },
+  {
+    "id": "江苏卫视",
+    "name": "江苏卫视",
+    "url": "https://www.tvmao.com/program_satellite/JSTV1-w{W}.html"
+  },
+  {
+    "id": "东方卫视",
+    "name": "东方卫视",
+    "url": "https://www.tvmao.com/program_satellite/DONGFANG1-w{W}.html"
+  },
+  {
+    "id": "北京卫视",
+    "name": "北京卫视",
+    "url": "https://www.tvmao.com/program_satellite/BTV1-w{W}.html"
+  },
+  {
+    "id": "广东卫视",
+    "name": "广东卫视",
+    "url": "https://www.tvmao.com/program_satellite/GDTV1-w{W}.html"
+  },
+  {
+    "id": "深圳卫视",
+    "name": "深圳卫视",
+    "url": "https://www.tvmao.com/program_satellite/SZTV1-w{W}.html"
+  },
+  {
+    "id": "安徽卫视",
+    "name": "安徽卫视",
+    "url": "https://www.tvmao.com/program_satellite/AHTV1-w{W}.html"
+  },
+  {
+    "id": "山东卫视",
+    "name": "山东卫视",
+    "url": "https://www.tvmao.com/program_satellite/SDTV1-w{W}.html"
+  },
+  {
+    "id": "河南卫视",
+    "name": "河南卫视",
+    "url": "https://www.tvmao.com/program_satellite/HNTV1-w{W}.html"
+  },
+  {
+    "id": "湖北卫视",
+    "name": "湖北卫视",
+    "url": "https://www.tvmao.com/program_satellite/HUBEI1-w{W}.html"
+  },
+  {
+    "id": "河北卫视",
+    "name": "河北卫视",
+    "url": "https://www.tvmao.com/program_satellite/HEBEI1-w{W}.html"
+  },
+  {
+    "id": "山西卫视",
+    "name": "山西卫视",
+    "url": "https://www.tvmao.com/program_satellite/SXTV1-w{W}.html"
+  },
+  {
+    "id": "陕西卫视",
+    "name": "陕西卫视",
+    "url": "https://www.tvmao.com/program_satellite/SHXITV1-w{W}.html"
+  },
+  {
+    "id": "辽宁卫视",
+    "name": "辽宁卫视",
+    "url": "https://www.tvmao.com/program_satellite/LNTV1-w{W}.html"
+  },
+  {
+    "id": "吉林卫视",
+    "name": "吉林卫视",
+    "url": "https://www.tvmao.com/program_satellite/JILIN1-w{W}.html"
+  },
+  {
+    "id": "黑龙江卫视",
+    "name": "黑龙江卫视",
+    "url": "https://www.tvmao.com/program_satellite/HLJTV1-w{W}.html"
+  },
+  {
+    "id": "四川卫视",
+    "name": "四川卫视",
+    "url": "https://www.tvmao.com/program_satellite/SCTV1-w{W}.html"
+  },
+  {
+    "id": "重庆卫视",
+    "name": "重庆卫视",
+    "url": "https://www.tvmao.com/program_satellite/CCQTV1-w{W}.html"
+  },
+  {
+    "id": "云南卫视",
+    "name": "云南卫视",
+    "url": "https://www.tvmao.com/program_satellite/YNTV1-w{W}.html"
+  },
+  {
+    "id": "贵州卫视",
+    "name": "贵州卫视",
+    "url": "https://www.tvmao.com/program_satellite/GUIZOUTV1-w{W}.html"
+  },
+  {
+    "id": "广西卫视",
+    "name": "广西卫视",
+    "url": "https://www.tvmao.com/program_satellite/GUANXI1-w{W}.html"
+  },
+  {
+    "id": "江西卫视",
+    "name": "江西卫视",
+    "url": "https://www.tvmao.com/program_satellite/JXTV1-w{W}.html"
+  },
+  {
+    "id": "福建东南卫视",
+    "name": "福建东南卫视",
+    "url": "https://www.tvmao.com/program_satellite/FJTV2-w{W}.html"
+  },
+  {
+    "id": "天津卫视",
+    "name": "天津卫视",
+    "url": "https://www.tvmao.com/program_satellite/TJTV1-w{W}.html"
+  },
+  {
+    "id": "海南卫视",
+    "name": "海南卫视",
+    "url": "https://www.tvmao.com/program_satellite/TCTC1-w{W}.html"
+  },
+  {
+    "id": "甘肃卫视",
+    "name": "甘肃卫视",
+    "url": "https://www.tvmao.com/program_satellite/GSTV1-w{W}.html"
+  },
+  {
+    "id": "青海卫视",
+    "name": "青海卫视",
+    "url": "https://www.tvmao.com/program_satellite/QHTV1-w{W}.html"
+  },
+  {
+    "id": "宁夏卫视",
+    "name": "宁夏卫视",
+    "url": "https://www.tvmao.com/program_satellite/NXTV2-w{W}.html"
+  },
+  {
+    "id": "新疆卫视",
+    "name": "新疆卫视",
+    "url": "https://www.tvmao.com/program_satellite/XJTV1-w{W}.html"
+  },
+  {
+    "id": "西藏卫视",
+    "name": "西藏卫视",
+    "url": "https://www.tvmao.com/program_satellite/XIZANGTV2-w{W}.html"
+  },
+  {
+    "id": "内蒙古卫视",
+    "name": "内蒙古卫视",
+    "url": "https://www.tvmao.com/program_satellite/NMGTV1-w{W}.html"
+  },
+  {
+    "id": "厦门卫视",
+    "name": "厦门卫视",
+    "url": "https://www.tvmao.com/program_satellite/XMTV5-w{W}.html"
+  },
+  {
+    "id": "三沙卫视",
+    "name": "三沙卫视",
+    "url": "https://www.tvmao.com/program_satellite/SANSHATV-w{W}.html"
+  },
+  {
+    "id": "海峡卫视",
+    "name": "海峡卫视",
+    "url": "https://www.tvmao.com/program_satellite/HXTV-w{W}.html"
+  },
+  {
+    "id": "康巴卫视",
+    "name": "康巴卫视",
+    "url": "https://www.tvmao.com/program_satellite/KAMBA-TV-w{W}.html"
+  },
+  {
+    "id": "延边卫视",
+    "name": "延边卫视",
+    "url": "https://www.tvmao.com/program_satellite/YANBIAN1-w{W}.html"
+  },
+  {
+    "id": "兵团卫视",
+    "name": "兵团卫视",
+    "url": "https://www.tvmao.com/program_satellite/BINGTUAN-w{W}.html"
+  },
+  {
+    "id": "黄河卫视",
+    "name": "黄河卫视",
+    "url": "https://www.tvmao.com/program_satellite/HHWS-w{W}.html"
+  },
+  {
+    "id": "湖南金鹰卡通",
+    "name": "湖南金鹰卡通",
+    "url": "https://www.tvmao.com/program_satellite/HUNANTV2-w{W}.html"
+  }
+]
